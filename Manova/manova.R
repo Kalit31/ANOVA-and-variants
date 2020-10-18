@@ -3,7 +3,7 @@
 # data("skulls", package = "HSAUR") 
 mydata<-read.csv("skulls.csv")
 
-summary(skulls)
+summary(mydata)
 
 attach(mydata)
 y = cbind(mb, bh, bl, nh)
