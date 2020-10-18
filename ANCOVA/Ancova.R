@@ -34,7 +34,7 @@ lines(lowess(df$Petal.Length ~ df$Sepal.Width), col = "grey", lwd = 3)
 
 # Legend
 legend("bottom", legend = c("sepal_lenght", "Sepal_width", "Petal_width"),
-       lwd = 3, lty = c(2, 1, 1), col = c("orange", "blue", "grey"))’ 
+       lwd = 3, lty = c(2, 1, 1), col = c("orange", "blue", "grey"))
 
 
 # Running the Anova
