@@ -12,9 +12,8 @@ is.factor(df$Species)
 # Normality
 hist(df$Sepal.Length)
 
-# Levene's test
-lm.iris<-lm(Petal.Length~Species,data=iris)
-leveneTest(lm.iris)
+# Boxplot
+boxplot(df$Sepal.Length~df$Species,df)
 
 # Linearity between covariate and Response variable
 plot(df$Sepal.Length, df$petal.Length)
